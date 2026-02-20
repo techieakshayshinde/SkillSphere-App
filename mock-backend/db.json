@@ -1,0 +1,180 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@test.com",
+      "password": "password123",
+      "name": "Admin",
+      "isAdmin": true
+    },
+    {
+      "id": "ad24",
+      "email": "anshulTest@gmail.com",
+      "password": "Password123",
+      "name": "Anshul",
+      "isAdmin": false
+    },
+    {
+      "id": "473f",
+      "email": "rakesh@test.com",
+      "password": "Pass123",
+      "name": "Rakesh",
+      "isAdmin": false
+    },
+    {
+      "id": "u001",
+      "email": "priya@test.com",
+      "password": "Pass123",
+      "name": "Priya",
+      "isAdmin": false
+    },
+    {
+      "id": "u002",
+      "email": "amit@test.com",
+      "password": "Pass123",
+      "name": "Amit",
+      "isAdmin": false
+    },
+    {
+      "id": "u003",
+      "email": "neha@test.com",
+      "password": "Pass123",
+      "name": "Neha",
+      "isAdmin": false
+    },
+    {
+      "id": "u004",
+      "email": "rajesh@test.com",
+      "password": "Pass123",
+      "name": "Rajesh",
+      "isAdmin": false
+    },
+    {
+      "id": "u005",
+      "email": "sneha@test.com",
+      "password": "Pass123",
+      "name": "Sneha",
+      "isAdmin": false
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "title": "Introduction to React",
+      "description": "Learn React.js basics and build dynamic web applications."
+    },
+    {
+      "title": "Full-Stack Development + AI",
+      "description": "Master front-end, back-end technologies and AI integration.",
+      "id": "2"
+    },
+    {
+      "id": "a00f",
+      "title": "AI/AL",
+      "description": "AI and Machine Learning - neural networks, deep learning, NLP."
+    },
+    {
+      "id": "4231",
+      "title": "DSA",
+      "description": "Data structures and algorithms - arrays, trees, sorting, optimization."
+    },
+    {
+      "id": "c4fe",
+      "title": "Python",
+      "description": "learn fullstack pyhon\n"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "e1",
+      "userId": "1",
+      "courseId": "1",
+      "enrolledDate": "2025-01-15",
+      "progress": 45
+    },
+    {
+      "id": "9a7a",
+      "userId": "ad24",
+      "courseId": "1",
+      "enrolledDate": "2026-02-05",
+      "progress": 0
+    },
+    {
+      "id": "3306",
+      "userId": "473f",
+      "courseId": "1",
+      "enrolledDate": "2026-02-05",
+      "progress": 0
+    },
+    {
+      "id": "e002",
+      "userId": "u001",
+      "courseId": "1",
+      "enrolledDate": "2026-02-05",
+      "progress": 25
+    },
+    {
+      "id": "e003",
+      "userId": "u002",
+      "courseId": "1",
+      "enrolledDate": "2026-02-05",
+      "progress": 15
+    },
+    {
+      "id": "e004",
+      "userId": "u003",
+      "courseId": "1",
+      "enrolledDate": "2026-02-05",
+      "progress": 35
+    },
+    {
+      "id": "e005",
+      "userId": "u004",
+      "courseId": "1",
+      "enrolledDate": "2026-02-05",
+      "progress": 50
+    },
+    {
+      "id": "e006",
+      "userId": "u005",
+      "courseId": "1",
+      "enrolledDate": "2026-02-05",
+      "progress": 20
+    },
+    {
+      "id": "e007",
+      "userId": "1",
+      "courseId": "2",
+      "enrolledDate": "2026-02-03",
+      "progress": 60
+    },
+    {
+      "id": "e008",
+      "userId": "ad24",
+      "courseId": "2",
+      "enrolledDate": "2026-02-05",
+      "progress": 10
+    },
+    {
+      "id": "e009",
+      "userId": "u001",
+      "courseId": "2",
+      "enrolledDate": "2026-02-05",
+      "progress": 30
+    },
+    {
+      "id": "e010",
+      "userId": "1",
+      "courseId": "a00f",
+      "enrolledDate": "2026-02-01",
+      "progress": 75
+    },
+    {
+      "id": "5985",
+      "userId": "1",
+      "courseId": "4231",
+      "enrolledDate": "2026-02-05",
+      "progress": 0
+    }
+  ]
+}

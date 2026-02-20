@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "server": "json-server --watch mock-backend/db.json --port 5000",
     "server:production": "json-server --watch mock-backend/db.json --port 5000 --host 0.0.0.0",
-    "start": "npm run server:production",
+    "start": "concurrently \"npm run server\" \"npm run dev\"",
     "test": "vitest",
     "lint": "eslint ."
   },
